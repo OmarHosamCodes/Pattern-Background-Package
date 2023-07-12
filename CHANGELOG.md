@@ -1,4 +1,3 @@
-## 1.0.0
+## 1.0.1
 
-
-Create Pattern Backgrounds
+Create create pattern background with diffrent shaps and customized sizes, colors and spacing. Enjoy!

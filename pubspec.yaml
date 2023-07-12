@@ -1,7 +1,7 @@
 name: pattern_background
 description: Create Pattern Backgrounds
-version: 1.0.0
-homepage: https://github.com/OmarHosamCodes/Pattern-Background-Package
+version: 1.0.1
+homepage: https://github.com/OmarHosamCodes/pattern-background-package
 
 environment:
   sdk: ">=3.0.5 <4.0.0"
