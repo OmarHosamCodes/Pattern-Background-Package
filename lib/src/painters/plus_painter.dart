@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import '/pattern_background.dart';
 
 class PlusSignPainter extends CustomPainter {
   final Color color;

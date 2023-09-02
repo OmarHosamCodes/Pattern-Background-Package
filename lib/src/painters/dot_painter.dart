@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import '/pattern_background.dart';
 
 class DotPainter extends CustomPainter {
   final double dotRadius;
@@ -29,25 +29,3 @@ class DotPainter extends CustomPainter {
   @override
   bool shouldRepaint(DotPainter oldDelegate) => false;
 }
-
-// class DotBackground extends StatelessWidget {
-//   const DotBackground(
-//       {super.key,
-//       this.dotRadius = 0.5,
-//       this.dotColor = const Color.fromRGBO(224, 224, 224, 1),
-//       this.spacing = 15.0});
-//   final double dotRadius;
-//   final Color dotColor;
-//   final double spacing;
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return CustomPaint(
-//       painter: DotPainter(
-//         dotRadius: dotRadius,
-//         dotColor: dotColor,
-//         spacing: spacing,
-//       ),
-//     );
-//   }
-// }
