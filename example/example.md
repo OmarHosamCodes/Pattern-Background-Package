@@ -6,16 +6,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     var c1 = Colors.grey.shade900;
     var c2 = Colors.amber.withOpacity(.5);
+    final width=MediaQuery.of(context).size.width;
+    final height=MediaQuery.of(context).size.height;
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: c1,
         body: CustomPaint(
-          size: Size(
-            MediaQuery.of(context).size.width,
-            MediaQuery.of(context).size.height /
-                2, // you can remove " /2 " to cover the whole screen
-          ),
+          size: Size(width,height),
           painter: DotPainter(
             dotColor: c2,
             dotRadius: 1,
@@ -26,5 +24,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-``
+
 ```
