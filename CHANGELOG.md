@@ -1,3 +1,3 @@
-## 1.1.2
+## 1.1.3
 
-Create create pattern background with diffrent shaps and customized sizes, colors and spacing. Enjoy!
+Create pattern background with diffrent shaps and customized sizes, colors and spacing. Enjoy!
